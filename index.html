@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AG1 Consulting | Built For Dr. Mario Montoya</title>
+<meta property="og:type" content="website">
+<meta property="og:title" content="Built for Dr. Mario Montoya (Smiles by Mario Montoya, Atlanta), by AG1 Consulting">
+<meta property="og:description" content="A rebuilt premium Atlanta website and a 90-day Google ranking plan for the Sandy Springs cosmetic-dental practice.">
+<meta property="og:url" content="https://andrei170.github.io/billion-dollar-smile-hub/">
+<meta property="og:image" content="https://andrei170.github.io/billion-dollar-smile-hub/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Built for Dr. Mario Montoya (Smiles by Mario Montoya, Atlanta), by AG1 Consulting">
+<meta name="twitter:description" content="A rebuilt premium Atlanta website and a 90-day Google ranking plan for the Sandy Springs cosmetic-dental practice.">
+<meta name="twitter:image" content="https://andrei170.github.io/billion-dollar-smile-hub/og-image.png">
+<link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;%E2%9C%A8&lt;/text&gt;&lt;/svg&gt;">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --black: #000000; --surface: #0A0A0F;
+    --gold-1: #D4A84B; --gold-2: #B8922E; --gold-flat: #C9973A;
+    --white: #FFFFFF; --muted: #9A9AA5; --border: rgba(255,255,255,0.10);
+  }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter','Open Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; background: var(--black); color: var(--white); line-height: 1.6; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+  .gold-text { background: linear-gradient(135deg, var(--gold-1), var(--gold-2)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+  .wrap { width: 100%; max-width: 1080px; margin: 0 auto; padding: 0 22px; }
+  nav { position: sticky; top: 0; z-index: 50; background: rgba(0,0,0,0.72); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-bottom: 1px solid var(--border); }
+  .nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 16px 22px; max-width: 1080px; margin: 0 auto; }
+  .wordmark { font-weight: 800; font-size: 1.3rem; letter-spacing: 0.5px; }
+  .wordmark .ag { background: linear-gradient(135deg, var(--gold-1), var(--gold-2)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+  .wordmark .co { color: var(--white); font-weight: 800; }
+  .nav-cta { font-size: 0.82rem; font-weight: 700; text-decoration: none; color: var(--black); background: linear-gradient(135deg, var(--gold-1), var(--gold-2)); padding: 9px 18px; border-radius: 40px; white-space: nowrap; }
+  header.hero { padding: 90px 0 70px; text-align: center; position: relative; background: radial-gradient(circle at 50% 0%, rgba(201,151,58,0.10), transparent 55%); }
+  .badge { display: inline-block; font-size: 0.74rem; font-weight: 700; letter-spacing: 1.6px; text-transform: uppercase; color: var(--gold-flat); border: 1px solid rgba(201,151,58,0.4); border-radius: 40px; padding: 8px 18px; margin-bottom: 30px; }
+  .brand-row { display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 26px; }
+  .brand-block { font-weight: 800; font-size: 1.55rem; letter-spacing: 0.5px; }
+  .brand-x { color: var(--muted); font-size: 1.4rem; font-weight: 400; }
+  header.hero h1 { font-size: clamp(1.9rem, 5vw, 3rem); font-weight: 800; line-height: 1.12; margin-bottom: 20px; }
+  header.hero p.sub { color: var(--muted); font-size: 1.1rem; max-width: 660px; margin: 0 auto; }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; background: var(--surface); border: 1px solid var(--border); border-radius: 18px; padding: 34px 18px; margin: 50px 0; box-shadow: 0 20px 60px rgba(0,0,0,0.5); }
+  .stat { text-align: center; }
+  .stat .num { font-size: clamp(1.8rem, 5vw, 2.6rem); font-weight: 800; line-height: 1; }
+  .stat .label { font-size: 0.82rem; color: var(--muted); margin-top: 10px; letter-spacing: 0.4px; }
+  .sec-head { text-align: center; margin: 70px 0 36px; }
+  .sec-head .eyebrow { font-size: 0.74rem; font-weight: 700; letter-spacing: 1.8px; text-transform: uppercase; color: var(--gold-flat); }
+  .sec-head h2 { font-size: clamp(1.5rem, 4vw, 2.1rem); font-weight: 800; margin-top: 12px; }
+  .acc { display: flex; flex-direction: column; gap: 16px; }
+  .card { background: rgba(10,10,15,0.7); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid var(--border); border-radius: 16px; overflow: hidden; box-shadow: 0 12px 40px rgba(0,0,0,0.45); }
+  .acc-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 24px; cursor: pointer; user-select: none; }
+  .acc-head .left { display: flex; align-items: center; gap: 16px; }
+  .acc-num { flex-shrink: 0; width: 38px; height: 38px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.95rem; color: var(--black); background: linear-gradient(135deg, var(--gold-1), var(--gold-2)); }
+  .acc-head h3 { font-size: 1.08rem; font-weight: 800; }
+  .acc-icon { flex-shrink: 0; color: var(--gold-flat); font-size: 1.5rem; transition: transform 0.35s ease; line-height: 1; }
+  .card.open .acc-icon { transform: rotate(45deg); }
+  .acc-body { max-height: 0; overflow: hidden; transition: max-height 0.45s ease; }
+  .acc-inner { padding: 0 24px 26px; color: #D7D7DE; }
+  .acc-inner p { margin-bottom: 14px; }
+  .acc-inner p:last-child { margin-bottom: 0; }
+  .acc-inner strong { color: var(--white); }
+  .acc-inner .gold-label { color: var(--gold-flat); font-weight: 700; }
+  .item { border-left: 2px solid rgba(201,151,58,0.45); padding: 4px 0 4px 16px; margin-bottom: 18px; }
+  .item:last-child { margin-bottom: 0; }
+  .item .name { font-weight: 800; color: var(--white); display: block; margin-bottom: 4px; }
+  .item .hl { color: #C7C7D0; font-style: italic; }
+  .pill { display: inline-block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.6px; text-transform: uppercase; color: var(--gold-flat); border: 1px solid rgba(201,151,58,0.4); border-radius: 30px; padding: 4px 12px; margin-bottom: 8px; }
+  .stack-list { list-style: none; }
+  .stack-list li { padding: 7px 0 7px 26px; position: relative; border-bottom: 1px solid rgba(255,255,255,0.05); }
+  .stack-list li:last-child { border-bottom: none; }
+  .stack-list li::before { content: "+"; position: absolute; left: 0; color: var(--gold-flat); font-weight: 800; }
+  .btn-link { display: inline-block; margin-top: 16px; text-decoration: none; font-weight: 700; font-size: 0.92rem; color: var(--black); background: linear-gradient(135deg, var(--gold-1), var(--gold-2)); padding: 13px 26px; border-radius: 40px; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+  .btn-link:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(201,151,58,0.3); }
+  .model-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+  .model{background:rgba(10,10,15,0.7);border:1px solid var(--border);border-radius:14px;padding:24px 22px;}
+  .model .ic{color:var(--gold-flat);font-weight:800;font-size:0.74rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:10px;display:block;}
+  .model h4{font-size:1rem;font-weight:800;margin-bottom:8px;color:var(--white);}
+  .model p{color:var(--muted);font-size:0.92rem;margin:0;}
+  .scarcity{text-align:center;color:var(--gold-flat);font-weight:700;font-size:0.95rem;margin:28px auto 0;max-width:620px;}
+  .hub-faq{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:14px;}
+  .hub-faq .qa{background:rgba(10,10,15,0.6);border:1px solid var(--border);border-radius:12px;padding:20px 22px;}
+  .hub-faq .qa h4{font-size:1rem;font-weight:800;color:var(--white);margin-bottom:6px;}
+  .hub-faq .qa p{color:var(--muted);font-size:0.93rem;margin:0;}
+  .sticky-cta{display:none;}
+  .process-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+  .proc { background: rgba(10,10,15,0.7); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid var(--border); border-radius: 16px; padding: 26px 24px; box-shadow: 0 12px 40px rgba(0,0,0,0.4); }
+  .proc .step { font-size: 0.78rem; font-weight: 800; letter-spacing: 1px; color: var(--gold-flat); margin-bottom: 12px; }
+  .proc h4 { font-size: 1.05rem; font-weight: 800; margin-bottom: 8px; }
+  .proc p { color: var(--muted); font-size: 0.95rem; }
+  .cta-box { text-align: center; margin: 80px 0 60px; padding: 60px 30px; background: var(--surface); border: 1px solid rgba(201,151,58,0.25); border-radius: 22px; background-image: radial-gradient(circle at 50% 0%, rgba(201,151,58,0.12), transparent 60%); box-shadow: 0 24px 70px rgba(0,0,0,0.55); }
+  .cta-box h2 { font-size: clamp(1.7rem, 4.5vw, 2.4rem); font-weight: 800; margin-bottom: 16px; }
+  .cta-box p { color: var(--muted); max-width: 560px; margin: 0 auto 30px; font-size: 1.08rem; }
+  .cta-box .btn-link { font-size: 1.05rem; padding: 16px 38px; margin-top: 0; }
+  footer { text-align: center; padding: 40px 0 60px; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); }
+  footer .wordmark { font-size: 1.05rem; margin-bottom: 8px; }
+  .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .reveal.in { opacity: 1; transform: translateY(0); }
+  @media (max-width:720px){
+    .model-grid{grid-template-columns:1fr;}
+    body{padding-bottom:74px;}
+    .sticky-cta{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(0,0,0,0.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid var(--border);padding:12px 16px;}
+    .sticky-cta a{display:block;width:100%;text-align:center;color:var(--black);background:linear-gradient(135deg,var(--gold-1),var(--gold-2));font-weight:700;padding:14px;border-radius:40px;text-decoration:none;font-size:0.95rem;}
+  }
+  @media (max-width: 720px) { .stats { grid-template-columns: 1fr; gap: 24px; padding: 30px 18px; } .process-grid { grid-template-columns: 1fr; } .nav-cta { display: none; } header.hero { padding: 64px 0 50px; } .brand-block { font-size: 1.3rem; } }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="wordmark"><span class="ag">AG1</span> <span class="co">CONSULTING</span></div>
+    <a href="https://calendly.com/ag-copy/call-with-andrei" class="nav-cta">Book a Call</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="badge reveal">Built Exclusively For Dr. Mario Montoya</span>
+    <div class="brand-row reveal">
+      <div class="brand-block"><span class="gold-text">AG1</span> <span style="color:var(--white)">CONSULTING</span></div>
+      <span class="brand-x">for</span>
+      <div class="brand-block" style="color:var(--white)">SMILES BY MARIO MONTOYA <span style="color:var(--gold-flat);font-weight:400">/</span> ATLANTA</div>
+    </div>
+    <h1 class="reveal">A Rebuilt Atlanta Website And A 90-Day Plan To<br><span class="gold-text">Rank On Google For Veneers In Sandy Springs</span></h1>
+    <p class="sub reveal">A premium consolidated US site, a reviews-acquisition engine, and on-page local-SEO targeting the exact searches Atlanta veneer buyers are running. Built specifically for your practice.</p>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="stats reveal">
+    <div class="stat"><div class="num"><span data-count="8">0</span>+</div><div class="label">Hours of Research</div></div>
+    <div class="stat"><div class="num"><span data-count="5">0</span></div><div class="label">Custom Deliverables</div></div>
+    <div class="stat"><div class="num"><span data-count="2">0</span></div><div class="label">Live Pages</div></div>
+  </div>
+
+  <div class="sec-head reveal">
+    <div class="eyebrow">The Work</div>
+    <h2>Everything We Built For Your Practice</h2>
+  </div>
+
+  <div class="acc">
+
+    <!-- 1 RESEARCH -->
+    <div class="card reveal">
+      <div class="acc-head"><div class="left"><div class="acc-num">1</div><h3>Research Snapshot</h3></div><span class="acc-icon">+</span></div>
+      <div class="acc-body"><div class="acc-inner">
+        <p>You have built a legitimately rare brand: press in Billboard, AJC, TMZ, Black Enterprise, AfroTech, and Hype; a celebrity-cited client roster; an Atlanta clinic at 10 Glenlake Parkway with a US-licensed team (Dr. Tomei, Dr. Herrera, Dr. Caceres); and three live IG handles tied to the work. The brand is real, the team is real, the press is real.</p>
+        <p>What is leaking that brand from a US-buyer point of view: three structural problems, all fixable.</p>
+        <p><span class="gold-label">1. Split-domain SEO.</span> Your IG bio link points at smilesbymariomontoya.com, a global site that opens with a Colombia-time-zone phone for US visitors. smilesbymariomontoyaatl.com is the right Atlanta surface but it is competing with the global domain plus a public staging subdomain stb.smilesbymariomontoyaatl.com. Three sites, one brand, Google does not know which to rank.</p>
+        <p><span class="gold-label">2. Google review velocity.</span> The Atlanta GBP shows 23 reviews on a 5.0 average. Atlanta cosmetic-dentistry competitors on the same "Atlanta veneers" SERP sit at 850+ (Atlanta West Dentistry) and 1,200+ (Vibrant Smiles). Review count is the dominant trust signal at the price point of a porcelain veneer set.</p>
+        <p><span class="gold-label">3. Outdated US-routing.</span> The main domain still surfaces Colombia hours and a non-US phone first. A US prospect researching veneers in Sandy Springs reads "call us in Colombia" before they ever see your Atlanta team.</p>
+        <p><span class="gold-label">The wedge:</span> consolidate to one canonical US site, ship the on-page local-SEO surface, install the reviews-acquisition engine, and re-route every channel to land on Sandy Springs. That is the build.</p>
+      </div></div>
+    </div>
+
+    <!-- 2 THE NEW WEBSITE -->
+    <div class="card reveal">
+      <div class="acc-head"><div class="left"><div class="acc-num">2</div><h3>The New Website</h3></div><span class="acc-icon">+</span></div>
+      <div class="acc-body"><div class="acc-inner">
+        <p>A premium Atlanta-focused rebuild in the editorial-luxury direction your Atlanta site already hints at. Ivory and ink with warm gold accents, Cormorant Garamond paired with Inter, generous whitespace, no celebrity photos, no clinical stock. The site reads like a cosmetic-dentistry brand of record, not a family practice with veneers tacked on.</p>
+        <p><span class="gold-label">What it solves on the demo page:</span></p>
+        <ul class="stack-list">
+          <li>Hero positioning: "The Billion Dollar Smile, designed for you" with the Atlanta team named under the hero</li>
+          <li>Compliance framing: every page carries "designed by Dr. Mario Montoya, delivered by our US-licensed Atlanta team"</li>
+          <li>Service pages: Smile Makeover, Porcelain Veneers, Snap-On Smile, Implants, Full-Mouth Rehabilitation, Ultra-Natural Design</li>
+          <li>Booking: Schedule Consultation button live, sticky US phone, WhatsApp link, no Colombia-time fallback</li>
+          <li>Smile gallery: typographic frame inviting private-consult review, no public clinical photos</li>
+          <li>Reviews section: honest about scale (23 today), paired with press coverage as secondary proof</li>
+          <li>Location: 10 Glenlake Parkway, Sandy Springs hours, parking, US phone, WhatsApp</li>
+        </ul>
+        <p style="margin-top:14px;">It is live and ready to view right now.</p>
+        <a href="https://andrei170.github.io/billion-dollar-smile-landing/" class="btn-link" target="_blank" rel="noopener">View the live website demo</a>
+      </div></div>
+    </div>
+
+    <!-- 3 SEO PLAN -->
+    <div class="card reveal">
+      <div class="acc-head"><div class="left"><div class="acc-num">3</div><h3>The 90-Day Google Ranking Plan</h3></div><span class="acc-icon">+</span></div>
+      <div class="acc-body"><div class="acc-inner">
+        <p>A phased plan that consolidates the domain, fixes the on-page SEO, installs the reviews engine, and tracks weekly against the priority keyword set.</p>
+        <div class="item"><span class="name">Phase 1 (Days 1 to 30): Audit and Consolidate</span><span class="hl">One canonical US domain. 301 redirect map from the global and staging surfaces. Staging robots-blocked. GBP optimization (NAP, hours, categories, 25+ photos). IG bio re-pointed. Citations cleanup. GA4, Search Console, CallRail, rank tracker baseline live.</span></div>
+        <div class="item"><span class="name">Phase 2 (Days 31 to 60): Foundation Build</span><span class="hl">Seven location-keyword service pages (porcelain-veneers-atlanta, smile-makeover-atlanta, etc.). Dentist + LocalBusiness + Service + FAQPage + Review schema. Page-speed pass (LCP under 2.5s mobile). Content hub launches with four editorial posts.</span></div>
+        <div class="item"><span class="name">Phase 3 (Days 61 to 90): Authority and Reviews</span><span class="hl">Automated review-request engine via SMS + email + QR card. Target: 100+ Google reviews by Day 90, up from 23. 35 local citations live. Internal linking dense across service pages and content hub. Press page consolidates Billboard, AJC, TMZ, Black Enterprise.</span></div>
+        <p style="margin-top:14px;">The full plan, with the priority keyword set and the weekly tracking cadence, is documented in the SEO plan deliverable.</p>
+      </div></div>
+    </div>
+
+    <!-- 4 ANGLES -->
+    <div class="card reveal">
+      <div class="acc-head"><div class="left"><div class="acc-num">4</div><h3>5 Campaign Angles (Drafts To Align On)</h3></div><span class="acc-icon">+</span></div>
+      <div class="acc-body"><div class="acc-inner">
+        <p>Angle drafts for paid ads (Meta, Google, YouTube pre-roll) and organic IG content. Flagged as drafts: we align with you before any live spend.</p>
+        <div class="item"><span class="name">1. Designed in Colombia. Delivered in Atlanta.</span><span class="hl">Turns the AJC-flagged compliance frame into the brand line. Resolves "is Dr. Montoya licensed here" in two words before they Google it.</span></div>
+        <div class="item"><span class="name">2. The Billion Dollar Smile in Sandy Springs.</span><span class="hl">Hyper-local hook. Premium brand at the exact intersection of "veneers Sandy Springs" and the brand promise.</span></div>
+        <div class="item"><span class="name">3. The Smile Behind the Press.</span><span class="hl">Restrained press-cite play. Billboard / AJC / TMZ / Black Enterprise as the proof. Solves the 23-reviews objection.</span></div>
+        <div class="item"><span class="name">4. A Consult Before A Commitment.</span><span class="hl">Lead-magnet angle. Free Atlanta consult to scope the smile-makeover plan. CTA is the calendar, not the price.</span></div>
+        <div class="item"><span class="name">5. Ultra-Natural by Design.</span><span class="hl">The brand-language angle the Atlanta site already owns. Position against the cartoon-maximalist veneers look.</span></div>
+      </div></div>
+    </div>
+
+    <!-- 5 DEMO PREVIEW -->
+    <div class="card reveal">
+      <div class="acc-head"><div class="left"><div class="acc-num">5</div><h3>Demo Website Preview</h3></div><span class="acc-icon">+</span></div>
+      <div class="acc-body"><div class="acc-inner">
+        <p>The full demo of the rebuilt Atlanta site is live. Hero, services, the Atlanta team page, the experience section, the smile-gallery frame, the honest reviews section, the location block, the FAQ, and the consult CTA. Read top to bottom and tell me what you would change.</p>
+        <p>It opens on the "designed by Dr. Mario Montoya, delivered by your US-licensed Atlanta team" framing, leads on Sandy Springs, and drives every CTA to a single "Schedule Consultation" path.</p>
+        <a href="https://andrei170.github.io/billion-dollar-smile-landing/" class="btn-link" target="_blank" rel="noopener">View the live website demo</a>
+      </div></div>
+    </div>
+
+    <!-- 6 COMPLIANCE -->
+    <div class="card reveal">
+      <div class="acc-head"><div class="left"><div class="acc-num">6</div><h3>Compliance Notes</h3></div><span class="acc-icon">+</span></div>
+      <div class="acc-body"><div class="acc-inner">
+        <p>The build is engineered around the compliance edges of a cosmetic-dental brand with a non-US-licensed founder, a small review base, and a celebrity-press surface.</p>
+        <ul class="stack-list">
+          <li><strong>US licensure framing.</strong> Every page frames the work as designed by Dr. Mario Montoya, delivered by our US-licensed Atlanta team (Dr. Tomei, Dr. Herrera, Dr. Caceres). The AJC piece flagged the licensure question and the site answers it on the page, before they Google it.</li>
+          <li><strong>No pricing lifted verbatim.</strong> The press-reported figures ($25K full set, $4,400 implants) appear nowhere. All pricing language is "consult-based" or "investment varies by case."</li>
+          <li><strong>Typographic only.</strong> No celebrity photos (Rick Ross, T-Pain, Ari Fletcher) reused. No first-party clinical photos hotlinked. Before-and-after gallery is shown privately in consult, framed for patient-privacy reasons.</li>
+          <li><strong>Honest reviews scale.</strong> The reviews section shows the verified 23-review base today and pairs it with an honest practice note. The acquisition engine closes the gap month over month.</li>
+          <li><strong>Domain consolidation.</strong> One canonical US site. 301 the rest. Robots-block the staging subdomain. IG bio link re-pointed.</li>
+          <li><strong>Review-acquisition compliance.</strong> No gating, no incentives, no fabricated reviews. Compliant with Google review policy and US FTC review-gating rules.</li>
+        </ul>
+      </div></div>
+    </div>
+
+  </div>
+
+  <!-- PROCESS -->
+  <div class="sec-head reveal">
+    <div class="eyebrow">How We Work</div>
+    <h2>Done For You. One Operator.</h2>
+  </div>
+
+  <div class="process-grid">
+    <div class="proc reveal"><div class="step">STEP 01</div><h4>Audit Current Sites</h4><p>Full audit of smilesbymariomontoya.com, smilesbymariomontoyaatl.com, and the staging subdomain. Redirect map. GBP audit. Citations audit. Baseline tracking installed.</p></div>
+    <div class="proc reveal"><div class="step">STEP 02</div><h4>Build Consolidated Site</h4><p>One canonical US site, premium editorial design, location-keyword service pages, Dentist + LocalBusiness + Service + FAQPage schema, page-speed pass.</p></div>
+    <div class="proc reveal"><div class="step">STEP 03</div><h4>90-Day SEO Sprint</h4><p>Weekly rank tracking. Content hub publishing. Internal linking. Citations expansion. Search Console + GA4 + CallRail attribution loop.</p></div>
+    <div class="proc reveal"><div class="step">STEP 04</div><h4>Reviews Acquisition System</h4><p>SMS + email + QR-card review-request engine tied to treatment-complete events. Front-desk script. Target: 100+ Google reviews in 90 days.</p></div>
+  </div>
+
+  <!-- HOW WE'D WORK -->
+  <div class="sec-head reveal">
+    <div class="eyebrow">How We'd Work</div>
+    <h2>Simple Terms. Skin In The Game.</h2>
+  </div>
+  <div class="model-grid">
+    <div class="model reveal"><span class="ic">The model</span><h4>A setup fee, then monthly SEO retainer</h4><p>A one-time build fee to stand up the consolidated site, then a flat monthly retainer for the 90-day sprint and the ongoing local-SEO work. Scope and price agreed before we start.</p></div>
+    <div class="model reveal"><span class="ic">One operator</span><h4>You deal with me, not a team</h4><p>I build and run the whole stack myself with AI leverage. One point of contact, fast turnaround, nothing lost in handoffs.</p></div>
+    <div class="model reveal"><span class="ic">Proven</span><h4>Over $1M generated, solo</h4><p>I built a full monetization system from zero for a creator with 180K followers: offer, funnel, email, and community, in weeks. Same operator, same process, on your practice.</p></div>
+  </div>
+  <p class="scarcity reveal">I only take on a handful of clients at a time, so I can stay hands-on with every build.</p>
+
+  <!-- HUB FAQ -->
+  <div class="sec-head reveal">
+    <div class="eyebrow">Straight Answers</div>
+    <h2>What You're Probably Wondering</h2>
+  </div>
+  <div class="hub-faq">
+    <div class="qa reveal"><h4>How much does this cost?</h4><p>A setup fee for the consolidated site and the 90-day SEO sprint, then a flat monthly retainer for the ongoing local-SEO work. We talk real numbers on the call, once I understand the scope of the consolidation and the review-engine integration with your practice management system.</p></div>
+    <div class="qa reveal"><h4>How long until the new site is live?</h4><p>The demo above was built before we ever spoke. With your sign-off on the canonical domain decision, the production site goes live in two to three weeks. The 90-day SEO sprint begins the day the site is live.</p></div>
+    <div class="qa reveal"><h4>What do you need from me?</h4><p>Sign-off on the canonical domain. Practice-management-system access for the review-request automation. A 15-minute front-desk briefing for the review-request script. Approval on each blog post topic before publication. I handle the build, the SEO work, the schema, the tracking, and the monthly reporting.</p></div>
+    <div class="qa reveal"><h4>Will the Rick Ross partnership cause any conflicts with the build?</h4><p>No. The build references press coverage of the partnership but uses no celebrity photos and makes no celebrity-endorsement claim. The brand surface stays clean of any naming that would create publicity-rights or endorsement-compliance exposure. The Rick Ross angle stays in press citations, not in marketing claims.</p></div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-box reveal">
+    <h2>Ready to build this for real?</h2>
+    <p>Everything above was built specifically for you, Dr. Montoya. Imagine the consolidated site and the 90-day plan wired into the Atlanta practice, the GBP, and the IG channels you already own.</p>
+    <a href="https://calendly.com/ag-copy/call-with-andrei" class="btn-link" target="_blank" rel="noopener">Book a call with Andrei</a>
+    <p style="color:var(--muted);font-size:0.92rem;margin:14px auto 0;text-align:center;">Not ready for a call? Just reply and tell me what you think.</p>
+    <p style="color:var(--gold-flat);font-weight:700;font-size:0.9rem;margin:14px auto 0;text-align:center;letter-spacing:.02em;">Over $1M in client revenue generated. One operator.</p>
+  </div>
+
+</div>
+
+<div class="sticky-cta"><a href="https://calendly.com/ag-copy/call-with-andrei">Book a call with Andrei</a></div>
+
+<footer>
+  <div class="wordmark"><span class="ag gold-text">AG1</span> <span class="co">CONSULTING</span></div>
+  <div>High-ticket offers and marketing systems, done for you.</div>
+  <div style="margin-top:14px;"><a href="https://andrei170.github.io/ag1/" target="_blank" rel="noopener" style="color:var(--gold-flat);text-decoration:none;font-weight:600;font-size:0.9rem;letter-spacing:.02em;">andrei170.github.io/ag1</a></div>
+</footer>
+
+<script>
+  document.querySelectorAll('.acc-head').forEach(function(h){
+    h.addEventListener('click', function(){
+      var card = h.parentElement;
+      var body = card.querySelector('.acc-body');
+      var isOpen = card.classList.contains('open');
+      if (isOpen) { body.style.maxHeight = null; card.classList.remove('open'); }
+      else { card.classList.add('open'); body.style.maxHeight = body.scrollHeight + 'px'; }
+    });
+  });
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+  function runCount(el){
+    var target = parseInt(el.getAttribute('data-count'), 10);
+    var start = null, dur = 1100;
+    function step(ts){ if (!start) start = ts; var p = Math.min((ts - start) / dur, 1); el.textContent = Math.floor(p * target); if (p < 1) requestAnimationFrame(step); else el.textContent = target; }
+    requestAnimationFrame(step);
+  }
+  var countObserved = false;
+  var statObserver = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if (e.isIntersecting && !countObserved){ countObserved = true; document.querySelectorAll('[data-count]').forEach(runCount); } });
+  }, { threshold: 0.4 });
+  var statsEl = document.querySelector('.stats');
+  if (statsEl) statObserver.observe(statsEl);
+</script>
+</body>
+</html>
